@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA8533E31D03C2C1005E990A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8533E21D03C2C1005E990A /* AppDelegate.swift */; };
+		AA8533E51D03C2C1005E990A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8533E41D03C2C1005E990A /* ViewController.swift */; };
+		AA8533E81D03C2C1005E990A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8533E61D03C2C1005E990A /* Main.storyboard */; };
+		AA8533EA1D03C2C1005E990A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8533E91D03C2C1005E990A /* Assets.xcassets */; };
+		AA8533ED1D03C2C1005E990A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8533EB1D03C2C1005E990A /* LaunchScreen.storyboard */; };
+		AA8533F81D03C2C1005E990A /* CupRamenTimer_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8533F71D03C2C1005E990A /* CupRamenTimer_SwiftTests.swift */; };
+		AA8534031D03C2C1005E990A /* CupRamenTimer_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8534021D03C2C1005E990A /* CupRamenTimer_SwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA8533F41D03C2C1005E990A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA8533D71D03C2C1005E990A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA8533DE1D03C2C1005E990A;
+			remoteInfo = "CupRamenTimer-Swift";
+		};
+		AA8533FF1D03C2C1005E990A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA8533D71D03C2C1005E990A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA8533DE1D03C2C1005E990A;
+			remoteInfo = "CupRamenTimer-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA8533DF1D03C2C1005E990A /* CupRamenTimer-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CupRamenTimer-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8533E21D03C2C1005E990A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA8533E41D03C2C1005E990A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA8533E71D03C2C1005E990A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA8533E91D03C2C1005E990A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA8533EC1D03C2C1005E990A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA8533EE1D03C2C1005E990A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA8533F31D03C2C1005E990A /* CupRamenTimer-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CupRamenTimer-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8533F71D03C2C1005E990A /* CupRamenTimer_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupRamenTimer_SwiftTests.swift; sourceTree = "<group>"; };
+		AA8533F91D03C2C1005E990A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA8533FE1D03C2C1005E990A /* CupRamenTimer-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CupRamenTimer-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8534021D03C2C1005E990A /* CupRamenTimer_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupRamenTimer_SwiftUITests.swift; sourceTree = "<group>"; };
+		AA8534041D03C2C1005E990A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA8533DC1D03C2C1005E990A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8533F01D03C2C1005E990A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8533FB1D03C2C1005E990A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA8533D61D03C2C1005E990A = {
+			isa = PBXGroup;
+			children = (
+				AA8533E11D03C2C1005E990A /* CupRamenTimer-Swift */,
+				AA8533F61D03C2C1005E990A /* CupRamenTimer-SwiftTests */,
+				AA8534011D03C2C1005E990A /* CupRamenTimer-SwiftUITests */,
+				AA8533E01D03C2C1005E990A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA8533E01D03C2C1005E990A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA8533DF1D03C2C1005E990A /* CupRamenTimer-Swift.app */,
+				AA8533F31D03C2C1005E990A /* CupRamenTimer-SwiftTests.xctest */,
+				AA8533FE1D03C2C1005E990A /* CupRamenTimer-SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA8533E11D03C2C1005E990A /* CupRamenTimer-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				AA8533E21D03C2C1005E990A /* AppDelegate.swift */,
+				AA8533E41D03C2C1005E990A /* ViewController.swift */,
+				AA8533E61D03C2C1005E990A /* Main.storyboard */,
+				AA8533E91D03C2C1005E990A /* Assets.xcassets */,
+				AA8533EB1D03C2C1005E990A /* LaunchScreen.storyboard */,
+				AA8533EE1D03C2C1005E990A /* Info.plist */,
+			);
+			path = "CupRamenTimer-Swift";
+			sourceTree = "<group>";
+		};
+		AA8533F61D03C2C1005E990A /* CupRamenTimer-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA8533F71D03C2C1005E990A /* CupRamenTimer_SwiftTests.swift */,
+				AA8533F91D03C2C1005E990A /* Info.plist */,
+			);
+			path = "CupRamenTimer-SwiftTests";
+			sourceTree = "<group>";
+		};
+		AA8534011D03C2C1005E990A /* CupRamenTimer-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA8534021D03C2C1005E990A /* CupRamenTimer_SwiftUITests.swift */,
+				AA8534041D03C2C1005E990A /* Info.plist */,
+			);
+			path = "CupRamenTimer-SwiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA8533DE1D03C2C1005E990A /* CupRamenTimer-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8534071D03C2C1005E990A /* Build configuration list for PBXNativeTarget "CupRamenTimer-Swift" */;
+			buildPhases = (
+				AA8533DB1D03C2C1005E990A /* Sources */,
+				AA8533DC1D03C2C1005E990A /* Frameworks */,
+				AA8533DD1D03C2C1005E990A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CupRamenTimer-Swift";
+			productName = "CupRamenTimer-Swift";
+			productReference = AA8533DF1D03C2C1005E990A /* CupRamenTimer-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA8533F21D03C2C1005E990A /* CupRamenTimer-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA85340A1D03C2C1005E990A /* Build configuration list for PBXNativeTarget "CupRamenTimer-SwiftTests" */;
+			buildPhases = (
+				AA8533EF1D03C2C1005E990A /* Sources */,
+				AA8533F01D03C2C1005E990A /* Frameworks */,
+				AA8533F11D03C2C1005E990A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA8533F51D03C2C1005E990A /* PBXTargetDependency */,
+			);
+			name = "CupRamenTimer-SwiftTests";
+			productName = "CupRamenTimer-SwiftTests";
+			productReference = AA8533F31D03C2C1005E990A /* CupRamenTimer-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA8533FD1D03C2C1005E990A /* CupRamenTimer-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA85340D1D03C2C1005E990A /* Build configuration list for PBXNativeTarget "CupRamenTimer-SwiftUITests" */;
+			buildPhases = (
+				AA8533FA1D03C2C1005E990A /* Sources */,
+				AA8533FB1D03C2C1005E990A /* Frameworks */,
+				AA8533FC1D03C2C1005E990A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA8534001D03C2C1005E990A /* PBXTargetDependency */,
+			);
+			name = "CupRamenTimer-SwiftUITests";
+			productName = "CupRamenTimer-SwiftUITests";
+			productReference = AA8533FE1D03C2C1005E990A /* CupRamenTimer-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA8533D71D03C2C1005E990A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JIO;
+				TargetAttributes = {
+					AA8533DE1D03C2C1005E990A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = LL3LDJXH2U;
+					};
+					AA8533F21D03C2C1005E990A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = AA8533DE1D03C2C1005E990A;
+					};
+					AA8533FD1D03C2C1005E990A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = AA8533DE1D03C2C1005E990A;
+					};
+				};
+			};
+			buildConfigurationList = AA8533DA1D03C2C1005E990A /* Build configuration list for PBXProject "CupRamenTimer-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA8533D61D03C2C1005E990A;
+			productRefGroup = AA8533E01D03C2C1005E990A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA8533DE1D03C2C1005E990A /* CupRamenTimer-Swift */,
+				AA8533F21D03C2C1005E990A /* CupRamenTimer-SwiftTests */,
+				AA8533FD1D03C2C1005E990A /* CupRamenTimer-SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA8533DD1D03C2C1005E990A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8533ED1D03C2C1005E990A /* LaunchScreen.storyboard in Resources */,
+				AA8533EA1D03C2C1005E990A /* Assets.xcassets in Resources */,
+				AA8533E81D03C2C1005E990A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8533F11D03C2C1005E990A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8533FC1D03C2C1005E990A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA8533DB1D03C2C1005E990A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8533E51D03C2C1005E990A /* ViewController.swift in Sources */,
+				AA8533E31D03C2C1005E990A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8533EF1D03C2C1005E990A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8533F81D03C2C1005E990A /* CupRamenTimer_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8533FA1D03C2C1005E990A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8534031D03C2C1005E990A /* CupRamenTimer_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA8533F51D03C2C1005E990A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA8533DE1D03C2C1005E990A /* CupRamenTimer-Swift */;
+			targetProxy = AA8533F41D03C2C1005E990A /* PBXContainerItemProxy */;
+		};
+		AA8534001D03C2C1005E990A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA8533DE1D03C2C1005E990A /* CupRamenTimer-Swift */;
+			targetProxy = AA8533FF1D03C2C1005E990A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA8533E61D03C2C1005E990A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8533E71D03C2C1005E990A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA8533EB1D03C2C1005E990A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8533EC1D03C2C1005E990A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA8534051D03C2C1005E990A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA8534061D03C2C1005E990A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA8534081D03C2C1005E990A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "CupRamenTimer-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.jio.CupRamenTimer-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA8534091D03C2C1005E990A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "CupRamenTimer-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.jio.CupRamenTimer-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA85340B1D03C2C1005E990A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CupRamenTimer-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.jio.CupRamenTimer-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CupRamenTimer-Swift.app/CupRamenTimer-Swift";
+			};
+			name = Debug;
+		};
+		AA85340C1D03C2C1005E990A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CupRamenTimer-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.jio.CupRamenTimer-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CupRamenTimer-Swift.app/CupRamenTimer-Swift";
+			};
+			name = Release;
+		};
+		AA85340E1D03C2C1005E990A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CupRamenTimer-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.jio.CupRamenTimer-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CupRamenTimer-Swift";
+			};
+			name = Debug;
+		};
+		AA85340F1D03C2C1005E990A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CupRamenTimer-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.jio.CupRamenTimer-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CupRamenTimer-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA8533DA1D03C2C1005E990A /* Build configuration list for PBXProject "CupRamenTimer-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8534051D03C2C1005E990A /* Debug */,
+				AA8534061D03C2C1005E990A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8534071D03C2C1005E990A /* Build configuration list for PBXNativeTarget "CupRamenTimer-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8534081D03C2C1005E990A /* Debug */,
+				AA8534091D03C2C1005E990A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA85340A1D03C2C1005E990A /* Build configuration list for PBXNativeTarget "CupRamenTimer-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA85340B1D03C2C1005E990A /* Debug */,
+				AA85340C1D03C2C1005E990A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA85340D1D03C2C1005E990A /* Build configuration list for PBXNativeTarget "CupRamenTimer-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA85340E1D03C2C1005E990A /* Debug */,
+				AA85340F1D03C2C1005E990A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA8533D71D03C2C1005E990A /* Project object */;
+}
